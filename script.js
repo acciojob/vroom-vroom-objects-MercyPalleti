@@ -4,7 +4,7 @@ function Car(make, model) {
 	this.model=model;
 }
 
-function SportsCar(make, model, topSpeed) {
+function SportsCar extends Car(make, model, topSpeed) {
 	this.make=make;
 	this.model=model;
 	this.topSpeed=topSpeed;
